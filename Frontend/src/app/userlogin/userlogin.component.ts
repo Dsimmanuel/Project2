@@ -25,6 +25,7 @@ export class UserloginComponent implements OnInit {
       (data)=>{
         alert("success");
         console.log(data)
+        window.location.reload()
       }
     )
   }
